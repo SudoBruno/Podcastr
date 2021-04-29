@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { api } from "../../services/api";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
 
+import styles from './episodes.module.scss'
+
 type Episode = {
   id: string;
   url: string; 
